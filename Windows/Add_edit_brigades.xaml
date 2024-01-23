@@ -23,7 +23,7 @@
         </ComboBox>
         <Label FontFamily="Arial" FontSize="16" Content="Код сотрудника" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top"/>
         <Button FontFamily="Arial" FontSize="15" IsCancel="True" Content="Отмена" HorizontalAlignment="Left" Margin="40,242,0,0" VerticalAlignment="Top" Width="140" Height="35"/>
-        <Button FontFamily="Arial" FontSize="15" Click="SaveClick" Content="Сохранить" HorizontalAlignment="Left" Margin="214,242,0,0" VerticalAlignment="Top" Width="146" Height="35"/>
+        <Button FontFamily="Arial" FontSize="15" Content="Сохранить" HorizontalAlignment="Left" Margin="214,242,0,0" VerticalAlignment="Top" Width="146" Height="35"/>
         <ComboBox x:Name="rabotnik" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top" Width="320" Height="25" Margin="0,178,0,0">
             <ComboBox.Effect>
                 <DropShadowEffect Opacity="0.5"/>

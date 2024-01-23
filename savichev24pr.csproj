@@ -64,6 +64,9 @@
     <Compile Include="Windows\Add_edit_lgota.xaml.cs">
       <DependentUpon>Add_edit_lgota.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Add_edit_planes.xaml.cs">
+      <DependentUpon>Add_edit_planes.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -121,6 +124,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Add_edit_lgota.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Add_edit_planes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
