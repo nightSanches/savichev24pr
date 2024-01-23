@@ -1,4 +1,4 @@
-﻿<Page x:Class="savichev24pr.Pages.Table_planes"
+﻿<Page x:Class="savichev24pr.Pages.Table_jobs"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:savichev24pr.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Table_planes">
+      Title="Table_jobs">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -19,10 +19,8 @@
         </Grid>
         <DataGrid IsReadOnly="True" AutoGenerateColumns="False" x:Name="tableGrid" Grid.Row="1">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Samolet_kod}" Header="Код самолета"  Width="100"/>
-                <DataGridTextColumn Binding="{Binding Samolet_vipusk_year}" Header="Год выпуска" Width="100"/>
-                <DataGridTextColumn Binding="{Binding Samolet_mesta}" Header="Посадочных мест"  Width="130"/>
-                <DataGridTextColumn Binding="{Binding Samolet_gruzopodjem}" Header="Грузоподъемность (тонн)" Width="160"/>
+                <DataGridTextColumn Binding="{Binding Job_kod}" Header="Код должности"  Width="100"/>
+                <DataGridTextColumn Binding="{Binding Job_naimenovanye}" Header="Наименование" Width="300"/>
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="2">
