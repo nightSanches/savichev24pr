@@ -75,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Table_brigades.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Table_jobs.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -102,6 +106,9 @@
     </Compile>
     <Compile Include="Pages\log_in.xaml.cs">
       <DependentUpon>log_in.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Table_brigades.xaml.cs">
+      <DependentUpon>Table_brigades.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Table_jobs.xaml.cs">
       <DependentUpon>Table_jobs.xaml</DependentUpon>
