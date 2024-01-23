@@ -50,7 +50,7 @@
             </ComboBox.Effect>
         </ComboBox>
         <Button FontFamily="Arial" FontSize="15" IsCancel="True" Content="Отмена" HorizontalAlignment="Left" Margin="36,658,0,0" VerticalAlignment="Top" Width="140" Height="35"/>
-        <Button FontWeight="DemiBold" FontFamily="Arial" FontSize="15" Click="SaveClick" Content="Сохранить" HorizontalAlignment="Left" Margin="210,658,0,0" VerticalAlignment="Top" Width="146" Height="35"/>
+        <Button FontWeight="DemiBold" FontFamily="Arial" FontSize="15" Content="Сохранить" HorizontalAlignment="Left" Margin="210,658,0,0" VerticalAlignment="Top" Width="146" Height="35"/>
         <Label FontFamily="Arial" FontSize="16" Content="Должность" HorizontalAlignment="Left" Margin="36,358,0,0" VerticalAlignment="Top"/>
         <Label FontFamily="Arial" FontSize="16" Content="Пол" HorizontalAlignment="Left" Margin="36,411,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="pol" FontSize="14" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="25" Margin="36,439,36,0">

@@ -67,6 +67,9 @@
     <Compile Include="Windows\Add_edit_planes.xaml.cs">
       <DependentUpon>Add_edit_planes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Add_edit_raspisanye.xaml.cs">
+      <DependentUpon>Add_edit_raspisanye.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Add_edit_workers.xaml.cs">
       <DependentUpon>Add_edit_workers.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Add_edit_planes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Add_edit_raspisanye.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
