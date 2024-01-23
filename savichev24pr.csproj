@@ -95,6 +95,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Table_vedomost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Table_workers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -121,6 +125,9 @@
     </Compile>
     <Compile Include="Pages\Table_raspisanye.xaml.cs">
       <DependentUpon>Table_raspisanye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Table_vedomost.xaml.cs">
+      <DependentUpon>Table_vedomost.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Table_workers.xaml.cs">
       <DependentUpon>Table_workers.xaml</DependentUpon>
