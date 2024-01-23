@@ -15,7 +15,7 @@
                 <DropShadowEffect Opacity="0.5"></DropShadowEffect>
             </Button.Effect>
         </Button>
-        <Button FontFamily="Arial" FontSize="15" Content="Расписание вылетов" HorizontalAlignment="Center" Margin="0,95,0,0" VerticalAlignment="Top" Height="38" Width="198">
+        <Button FontFamily="Arial" FontSize="15" Content="Расписание вылетов" HorizontalAlignment="Center" Margin="0,95,0,0" VerticalAlignment="Top" Height="38" Width="198" Click="Button_Click">
             <Button.Effect>
                 <DropShadowEffect Opacity="0.5"></DropShadowEffect>
             </Button.Effect>
@@ -25,7 +25,7 @@
                 <DropShadowEffect Opacity="0.5"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="rabotniki" FontFamily="Arial" FontSize="15" Content="Работники аэропорта" HorizontalAlignment="Center" Margin="0,205,0,0" VerticalAlignment="Top" Height="38" Width="198">
+        <Button x:Name="rabotniki" FontFamily="Arial" FontSize="15" Content="Работники аэропорта" HorizontalAlignment="Center" Margin="0,205,0,0" VerticalAlignment="Top" Height="38" Width="198" Click="rabotniki_Click">
             <Button.Effect>
                 <DropShadowEffect Opacity="0.5"/>
             </Button.Effect>
@@ -35,7 +35,7 @@
                 <DropShadowEffect Opacity="0.5"/>
             </Button.Effect>
         </Button>
-        <Button x:Name="brigades" FontFamily="Arial" FontSize="15" Content="Бригады" HorizontalAlignment="Center" VerticalAlignment="Top" Height="38" Width="198" Margin="0,315,0,0">
+        <Button x:Name="brigades" FontFamily="Arial" FontSize="15" Content="Бригады" HorizontalAlignment="Center" VerticalAlignment="Top" Height="38" Width="198" Margin="0,315,0,0" Click="brigades_Click">
             <Button.Effect>
                 <DropShadowEffect Opacity="0.5"/>
             </Button.Effect>

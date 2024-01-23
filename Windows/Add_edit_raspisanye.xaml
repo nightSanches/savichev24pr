@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:savichev24pr.Windows"
         mc:Ignorable="d"
-            Title="Добавление/редактирование записи" Height="520" Width="400" MinWidth="400" MinHeight="520" MaxHeight="520" MaxWidth="400" Loaded="WindowLoaded">
+            Title="Добавление/редактирование записи" Height="520" Width="400" MinWidth="400" MinHeight="520" MaxHeight="520" MaxWidth="400">
     <Grid Background="DarkSeaGreen">
         <ComboBox x:Name="samolet" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top" Width="320" Height="25" Margin="0,45,0,0">
             <ComboBox.Effect>

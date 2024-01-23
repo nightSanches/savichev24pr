@@ -34,9 +34,9 @@
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="2">
-            <Button x:Name="add" FontFamily="Arial" Content="Добавить" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="97" Height="30"/>
+            <Button x:Name="add" FontFamily="Arial" Content="Добавить" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="97" Height="30" Click="add_Click"/>
             <Button x:Name="delete" FontFamily="Arial" Content="Удалить" HorizontalAlignment="Left" Margin="112,0,0,0" VerticalAlignment="Center" Width="97" Height="30"/>
-            <Button x:Name="edit" FontFamily="Arial" Content="Редактировать" HorizontalAlignment="Left" Margin="214,0,0,0" VerticalAlignment="Center" Width="97" Height="30"/>
+            <Button x:Name="edit" FontFamily="Arial" Content="Редактировать" HorizontalAlignment="Left" Margin="214,0,0,0" VerticalAlignment="Center" Width="97" Height="30" Click="add_Click"/>
         </Grid>
     </Grid>
 </Page>

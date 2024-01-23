@@ -23,6 +23,7 @@ namespace savichev24pr
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new Pages.log_in());
         }
     }
 }

@@ -24,5 +24,10 @@ namespace savichev24pr.Pages
         {
             InitializeComponent();
         }
+
+        private void bth_log_in(object sender, RoutedEventArgs e)
+        {
+            ((MainWindow)Application.Current.MainWindow).frame.Navigate(new Pages.All_Tables());
+        }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:savichev24pr.Windows"
         mc:Ignorable="d"
-            Title="Добавление/редактирование записи" Height="500" Width="400" MinWidth="400" MinHeight="500" MaxHeight="500" MaxWidth="400" Loaded="WindowLoaded">
+            Title="Добавление/редактирование записи" Height="500" Width="400" MinWidth="400" MinHeight="500" MaxHeight="500" MaxWidth="400">
     <Grid Background="DarkSeaGreen">
         <Label FontFamily="Arial" FontSize="16" Content="Наименование льготы" HorizontalAlignment="Left" Margin="40,14,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="lgota_naim" FontSize="14" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="23" Margin="0,45,0,0">

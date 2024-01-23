@@ -1,4 +1,5 @@
-﻿using System;
+﻿using savichev24pr.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,19 @@ namespace savichev24pr.Pages
         public Table_brigades()
         {
             InitializeComponent();
+        }
+
+        private void backClick(object sender, RoutedEventArgs e)
+        {
+            ((MainWindow)Application.Current.MainWindow).frame.Navigate(new Pages.All_Tables());
+        }
+
+        private void add_Click(object sender, RoutedEventArgs e)
+        {
+            Add_edit_brigades taskWindow = new Add_edit_brigades();
+            if (taskWindow.ShowDialog() == true)
+            {
+            }
         }
     }
 }
