@@ -79,6 +79,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Table_planes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Table_raspisanye.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,6 +97,9 @@
     </Compile>
     <Compile Include="Pages\Table_lgoty.xaml.cs">
       <DependentUpon>Table_lgoty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Table_planes.xaml.cs">
+      <DependentUpon>Table_planes.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Table_raspisanye.xaml.cs">
       <DependentUpon>Table_raspisanye.xaml</DependentUpon>
